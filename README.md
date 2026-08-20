@@ -1,8 +1,8 @@
-# Multi-Agent Workflow
+# Multi-Agent-Workflow
 
 可视化编排、可暂停、可恢复的多智能体工作流运行时。
 
-Multi-Agent Workflow 使用 React Flow 编辑工作流，用 LangGraph 执行工作流，把多个具备不同角色、工具和产物契约的 Agent 连接成可追踪的任务流。它适合用于需求分析、代码生成、代码评审、测试验证等需要多角色协作的研发场景。
+Multi-Agent-Workflow 使用 React Flow 编辑工作流，用 LangGraph 执行工作流，把多个具备不同角色、工具和产物契约的 Agent 连接成可追踪的任务流。它适合用于需求分析、代码生成、代码评审、测试验证等需要多角色协作的研发场景。
 
 > 当前项目处于 MVP / early-stage 阶段，重点验证“可视化工作流 DSL + LangGraph 编译执行 + Agent Loop + 人工确认”的完整闭环。
 

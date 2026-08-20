@@ -38,7 +38,7 @@ textarea {
 
 .shell {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 260px 1fr;
   height: 100vh;
   background:
     radial-gradient(1100px 520px at 12% -10%, rgba(47, 212, 161, 0.18), transparent 55%),
@@ -1927,6 +1927,7 @@ textarea:focus {
     border-bottom: 1px solid var(--line);
   }
 }
+
 /* --- Run detail: agent tool events + workspace panel --- */
 
 .tool-event {

@@ -105,7 +105,7 @@ async def lifespan(_app: FastAPI):
     logger.info('API shutdown complete')
 
 
-app = FastAPI(title='Multi-Agent Workflow API', version='0.1.0', lifespan=lifespan)
+app = FastAPI(title='Multi-Agent-Workflow API', version='0.1.0', lifespan=lifespan)
 settings = get_settings()
 cors_origins = settings.cors_origin_list or ['http://localhost:5173']
 app.add_middleware(

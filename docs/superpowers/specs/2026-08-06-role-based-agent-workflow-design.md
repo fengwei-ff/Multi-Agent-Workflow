@@ -1,4 +1,4 @@
-# Role-Based Multi-Agent Workflow Design
+# Role-Based Multi-Agent-Workflow Design
 
 **Date:** 2026-08-06
 **Status:** Approved for implementation planning

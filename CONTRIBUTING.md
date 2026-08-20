@@ -1,6 +1,6 @@
-# Contributing to Multi-Agent Workflow
+# Contributing to Multi-Agent-Workflow
 
-感谢你对 Multi-Agent Workflow 的兴趣。项目目前处于 MVP 阶段，欢迎围绕工作流 DSL、LangGraph 编译执行、Agent 工具治理、HITL 和可观测性提交贡献。
+感谢你对 Multi-Agent-Workflow 的兴趣。项目目前处于 MVP 阶段，欢迎围绕工作流 DSL、LangGraph 编译执行、Agent 工具治理、HITL 和可观测性提交贡献。
 
 ## Before You Start
 

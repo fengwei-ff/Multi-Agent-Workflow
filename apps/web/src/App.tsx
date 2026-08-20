@@ -74,7 +74,7 @@ export default function App() {
         {!sideCollapsed ? (
           <>
             <div className="brand">
-              <strong>Multi-Agent Workflow</strong>
+              <strong>Multi-Agent-Workflow</strong>
               <span>编排多 Agent 任务流</span>
             </div>
             <button
@@ -131,7 +131,7 @@ export default function App() {
           {!view ? (
             <section className="start">
               <p className="eyebrow">Multi-Agent Orchestration</p>
-              <h1>Multi-Agent Workflow</h1>
+              <h1>Multi-Agent-Workflow</h1>
               <p>暂无工作流，点击左侧「+ 新建」创建一个。</p>
             </section>
           ) : view.kind === 'roles' ? (
