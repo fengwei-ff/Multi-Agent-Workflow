@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #081120; color: #eaf2ff; }
+.app { max-width: 960px; margin: 0 auto; padding: 20px; }
+.hero, .card { background: rgba(18, 28, 46, 0.92); border: 1px solid rgba(120,180,255,.18); border-radius: 20px; padding: 18px; margin-bottom: 16px; }
+.tabs { display: flex; gap: 10px; overflow: auto; margin: 16px 0; }
+.tab { border: 1px solid rgba(120,180,255,.18); background: #10203a; color: #dfe9ff; border-radius: 999px; padding: 10px 16px; }
+.tab.active { background: linear-gradient(135deg, #2fd4a1, #4cc9f0); color: #041018; font-weight: 700; }
+.dish-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.dish-item { padding: 14px; border-radius: 16px; background: #0d1b32; border: 1px solid rgba(120,180,255,.14); }
+.badge { display: inline-block; margin-top: 8px; font-size: 12px; color: #8ed8ff; }
+.ratio, .steps, .ingredients { line-height: 1.7; }

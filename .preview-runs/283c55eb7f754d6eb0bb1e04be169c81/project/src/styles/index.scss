@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.cuisine-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 12px;
+}
+
+.cuisine-grid .adm-card {
+  margin: 0;
+}
+
+.cuisine-grid img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cuisine-name {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.cuisine-desc {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.dish-list,
+.search-results {
+  padding: 12px;
+}
+
+.dish-list .adm-card,
+.search-results .adm-card {
+  margin-bottom: 12px;
+}
+
+.dish-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dish-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dish-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dish-description {
+  color: #888;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.detail-hero {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.detail-header {
+  padding: 16px;
+}
+
+.detail-header h2 {
+  margin: 0 0 8px;
+}
+
+.detail-desc {
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.ingredient-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.step-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.step-num {
+  background: #ff6b6b;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.comment-form {
+  margin-bottom: 16px;
+}
+
+.comment-form .adm-rate {
+  margin-bottom: 8px;
+}
+
+.comment-form .adm-text-area {
+  margin-bottom: 8px;
+}
+
+.comment-list {
+  margin-top: 8px;
+}
+
+.comment-item {
+  border-bottom: 1px solid #f5f5f5;
+  padding: 10px 0;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-nick {
+  font-weight: bold;
+}
+
+.comment-content {
+  margin: 6px 0;
+}
+
+.comment-time {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.empty-tip {
+  color: #aaa;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.search-bar {
+  padding: 12px;
+}

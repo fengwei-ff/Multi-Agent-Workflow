@@ -1,0 +1,10 @@
+{
+  "name": "@workflow-agent/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bash ./dev.sh",
+    "start": "bash ./dev.sh",
+    "lint": "bash -lc 'source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh && conda activate vEffect && cd \"$(pwd)\" && PYTHONPATH=. python -c \"import app.main; print(\\\"ok\\\")\"'"
+  }
+}
